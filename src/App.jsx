@@ -3,7 +3,6 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Footer from "./Componants/Footer/Footer";
 import Resume from "./Componants/Resume/Resume";
-import Contact from "./Componants/Contact/Contact";
 import MYNav from "./Componants/Nav/Nav";
 import { Routes, Route } from "react-router-dom";
 import About from "./Componants/About/About";
@@ -34,7 +33,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Home />} />
