@@ -16,8 +16,9 @@ function App() {
     endY.current=e.pageY;
     dot.current.style.top=endY.current+"px";
     dot.current.style.left=endX.current+"px";
+
   }
-  useEffect(() => {
+  useEffect(() => { 
     document.addEventListener("mousemove", mouseMoveEnent)
   
     return () => {

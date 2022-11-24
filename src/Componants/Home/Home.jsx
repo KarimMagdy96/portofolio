@@ -40,7 +40,7 @@ export default function Home() {
         </div>
       </header>
       <Row xs={1} md={2} className="g-5" id="mywork">
-        <div className="w-100 fs-3">Work.</div>
+        <div className="w-100 fs-3 ">Work.</div>
         <Col>
           <Card className=" border-0">
             <a

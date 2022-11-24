@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
@@ -8,18 +8,13 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { Link, NavLink } from 'react-router-dom';
 export default function MYNav() {
-    function scroll() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
   return (
     <>
       {["xxl"].map((expand) => (
         <Navbar
           key={expand}
-          
           expand={expand}
-          className="mb-0 fixed-top mt-0 nav"
+          className="mb-0 fixed-top pt-3 nav"
         >
           <Container fluid className="px-3">
             <Navbar.Brand href="#" className="ps-3">
@@ -47,7 +42,7 @@ export default function MYNav() {
                   </NavLink>
                   <a
                     href="#mywork"
-                    className="px-3 text-decoration-none btn social-btn  text-dark"
+                    className="px-3 text-decoration-none btn social-btn   text-dark"
                   >
                     Work
                   </a>
