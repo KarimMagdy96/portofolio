@@ -17,9 +17,9 @@ export default function MYNav() {
       {["xxl"].map((expand) => (
         <Navbar
           key={expand}
-          bg="transparent"
+          
           expand={expand}
-          className="mb-0 fixed-top mt-0"
+          className="mb-0 fixed-top mt-0 nav"
         >
           <Container fluid className="px-3">
             <Navbar.Brand href="#" className="ps-3">

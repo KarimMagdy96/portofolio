@@ -27,7 +27,8 @@ function App() {
   
   return (
     <>
-    <div ref={dot} className='dot'></div>
+      <div ref={dot} className="dot"></div>
+      <div className="pad"></div>
       <MYNav />
       <div className=" container-fluid  px-4">
         <Routes>

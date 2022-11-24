@@ -120,7 +120,7 @@ export default function Resume() {
           </tbody>
         </table>
         <h3 className="fw-bold pb-2 mt-5">LANGUAGES</h3>
-        <p>Arabic: Native | English: Good written and spoken.</p>
+        <p className='mb-5'>Arabic: Native | English: Good written and spoken.</p>
       </div>
     </div>
   );
